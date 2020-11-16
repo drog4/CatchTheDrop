@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+      prefWidth="600.0"
+      style="-fx-background-image: url('file:C:/Users/Владимир/IdeaProjects/Drogs_catchTheDrop/src/resources/images/menu_background.png');"
+      xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GameWindow">
+    <children>
+        <Button fx:id="start" defaultButton="true" layoutX="176.0" layoutY="76.0" mnemonicParsing="false"
+                onMouseClicked="#mains" prefHeight="58.0" prefWidth="226.0" style="-fx-background-color: #FFA500;"
+                text="START GAME">
+            <font>
+                <Font name="Cambria" size="30.0"/>
+            </font>
+        </Button>
+        <Button layoutX="360.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#records" prefHeight="58.0"
+                prefWidth="226.0" style="-fx-background-color: #FFA500;" text="RECORDS">
+            <font>
+                <Font name="Cambria Bold Italic" size="30.0"/>
+            </font>
+        </Button>
+        <Button layoutX="14.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#control" prefHeight="58.0"
+                prefWidth="226.0" style="-fx-background-color: #FFA500;" text="CONTROL">
+            <font>
+                <Font name="Cambria Bold Italic" size="29.0"/>
+            </font>
+        </Button>
+        <Button layoutX="176.0" layoutY="273.0" mnemonicParsing="false" onMouseClicked="#exit" prefHeight="58.0"
+                prefWidth="226.0" style="-fx-background-color: #FFA500;" text="EXIT">
+            <font>
+                <Font name="Cambria" size="30.0"/>
+            </font>
+        </Button>
+    </children>
+</Pane>
